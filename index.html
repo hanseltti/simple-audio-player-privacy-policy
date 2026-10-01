@@ -36,7 +36,7 @@
 
   <h1>Simyer Privacy Policy</h1>
 
-  <p class="updated">Last updated: October 1, 2026</p>
+  <p class="updated">Last updated: <span class="current-year" >2026</span></p>
 
   <p>
     Simyer ("the App") is a simple audio player application designed to allow
@@ -111,5 +111,8 @@
   </p>
 
 </body>
+<script>
+    document.querySelector('.current-year').textContent = new Date().getFullYear();
+</script>
 </html>
 
